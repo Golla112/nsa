@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+:root {
+  --brand: #4f46e5;
+}
+body {
+  @apply bg-white text-gray-800;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+a { text-decoration: none; }
